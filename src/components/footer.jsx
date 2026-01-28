@@ -106,25 +106,27 @@ const Footer = () => {
             </div>
 
             {/* Newsletter */}
-            <div className="lg:pl-8">
-              <h4 className="text-2xl font-serif italic mb-4">
-                Let’s Grow Together!
-              </h4>
-              <p className="text-[12px] text-gray-600 mb-6 max-w-xs">
-                Sign up for our newsletter for updates.
-              </p>
+   {/* Newsletter */}
+<div className="lg:pl-8">
+  <h4 className="text-2xl font-serif italic mb-4">
+    Let’s Grow Together!
+  </h4>
+  <p className="text-[12px] text-gray-600 mb-6 max-w-xs">
+    Sign up for our newsletter for updates.
+  </p>
 
-              <div className="flex border border-black max-w-sm">
-                <input
-                  type="email"
-                  placeholder="Email address"
-                  className="w-full px-4 py-3 text-sm italic focus:outline-none"
-                />
-                <button className="px-6 bg-black text-white hover:bg-gray-800 transition">
-                  →
-                </button>
-              </div>
-            </div>
+  {/* FIXED: White Background & Clean Alignment */}
+  <div className="flex border-b border-black max-w-sm group bg-white items-center">
+    <input
+      type="email"
+      placeholder="Email address"
+      className="w-full px-0 py-3 text-[12px]  tracking-wider italic bg-transparent focus:outline-none placeholder:text-gray-400"
+    />
+    <button className="pl-4 py-3 bg-transparent text-black text-[11px] font-bold uppercase tracking-[0.3em] hover:opacity-60 transition-opacity flex items-center justify-center">
+      JOIN
+    </button>
+  </div>
+</div>
           </div>
 
           {/* BOTTOM BAR */}
