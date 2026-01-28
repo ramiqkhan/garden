@@ -1,6 +1,6 @@
 import React from 'react';
 import lunarImg from '../assets/lunar.webp'; 
-import heartImg from '../assets/9.webp'; 
+import heartImg from '../assets/9img.webp'; 
 
 const NewArrivals = () => {
   return (

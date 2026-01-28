@@ -1,5 +1,5 @@
 import React from 'react';
-import secondGardenImg from '../assets/4.jpeg'; 
+import secondGardenImg from '../assets/4img.jpeg'; 
 
 const steps = [
   {
