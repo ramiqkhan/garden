@@ -1,8 +1,8 @@
 import React from 'react';
 // Import your different images here
-import img1 from '../assets/1img.png'; 
-import img2 from '../assets/2img.png'; 
-import img4 from '../assets/Capture.png'; 
+import img1 from '../assets/1img.PNG'; 
+import img2 from '../assets/2img.PNG'; 
+import img4 from '../assets/Capture.PNG'; 
 
 const gardenItems = [
   { 
